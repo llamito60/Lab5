@@ -7,7 +7,7 @@
 int linear_search(const std::vector<std::string>& container, const std::string& element) {
     for (int i = 0; i < container.size(); i++) {
         if (container[i] == element) {
-            return i + 1;
+            return i;
         }
     }
     return -1;
